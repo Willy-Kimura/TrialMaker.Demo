@@ -1,6 +1,6 @@
 # TrialMaker: Trial Licensing for .NET Applications
 
-[![nuget-package](https://img.shields.io/badge/NuGet-Install-green.svg)](https://www.nuget.org/packages/TrialMaker/) [![Purchase via Gumroad](https://img.shields.io/badge/Get-SourceCode-orange.svg)](https://kutt.it/lcgen) [![Purchase via Gumroad](https://img.shields.io/badge/Get-LicenseGenerator-yellow.svg)](https://kutt.it/lcgen) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
+[![nuget-package](https://img.shields.io/badge/NuGet-Install-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing/) [![Purchase via Gumroad](https://img.shields.io/badge/Get-SourceCode-orange.svg)](https://kutt.it/lcgen) [![Purchase via Gumroad](https://img.shields.io/badge/Get-LicenseGenerator-yellow.svg)](https://kutt.it/lcgen) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 
 **TrialMaker** is a .NET library that provides trial licensing for .NET applications.  It provides a simplified and easy way to integrate secure free-trial license generation and copy protection features. It also supports premium offline license generation for expired free-trials with its own [License Generator](https://kutt.it/lcgen) utility.
 
@@ -12,7 +12,7 @@
 
 # Installation
 
-To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialMaker/) Console, run:
+To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialMaker.Licensing/) Console, run:
 
 > `Install-Package TrialMaker.Licensing`
 
