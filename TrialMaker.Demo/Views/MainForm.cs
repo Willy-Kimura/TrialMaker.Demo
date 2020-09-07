@@ -120,8 +120,8 @@ namespace TrialMakerDemo.CSharp.Views
                             $"{lic.TotalDays}-day Free Trial Activated");
                     }
                 }
-
-                UpdateTitles(lic);
+            
+                UpdateTitles();
             }
             else if (lic.Status == LicenseStatus.Expired)
             {
@@ -175,57 +175,7 @@ namespace TrialMakerDemo.CSharp.Views
                 lblLicenseMessage.Text = tm.ModelExpirationMessage();
             }
         }
-
-        /// <summary>
-        /// Updates the system titles based on the customer license information.
-        /// </summary>
-        /// <param name="license">
-        /// Provide the customer license to capture details from.
-        /// </param>
-        public void UpdateTitles(License license)
-        {
-            if (license.Type == LicenseTypes.Premium)
-            {
-                activatePremiumToolStripMenuItem.Visible = false;
-
-                Text = tm.ModelProductTitle();
-
-                lblLicenseMessage.Text = $"Licensed to {license.Client}";
-                lblLicenseMessage.ForeColor = Color.ForestGreen;
-            }
-            else
-            {
-                Text = tm.ModelProductTitle();
-
-                lblLicenseMessage.Text = tm.ModelExpirationMessage();
-            }
-        }
-
-        /// <summary>
-        /// Gets the suffix of any day, e.g. 21st.
-        /// </summary>
-        /// <param name="day">
-        /// The day in Integer format.
-        /// </param>
-        public string GetDaySuffix(int day)
-        {
-            switch (day)
-            {
-                case 1:
-                case 21:
-                case 31:
-                    return "st";
-                case 2:
-                case 22:
-                    return "nd";
-                case 3:
-                case 23:
-                    return "rd";
-                default:
-                    return "th";
-            }
-        }
-
+    
         #endregion
 
         #region Events
