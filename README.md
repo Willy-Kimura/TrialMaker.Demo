@@ -440,8 +440,8 @@ We will now discuss how the License Generator works...
 ### Features
 
 - Generating hardware-locked licenses based on a client's Hardware ID.
-- Generating subscription-based premium licenses by limiting the no. of days of use, e.g. 365.
-- Managing premium clients and products in a local db for reference purposes and support.
+- Generating subscription licenses by limiting the no. of days of use, e.g. 365.
+- Managing premium clients and products for reference purposes and support.
 
 ### Usage
 
