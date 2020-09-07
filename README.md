@@ -24,11 +24,11 @@ To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialM
 - Generates secure free-trial licenses with configurable trial periods.
 - Encrypts licenses with strong military grade AES-256 encryption.
 - Generates unique Hardware IDs per customer for license validation.
-- Generates hardware-locked trial and [premium](https://kutt.it/lcgen) licenses based on clients' Hardware IDs.
+- Generates hardware-locked trial and premium licenses based on clients' Hardware IDs.
 - Generates unique license keys based on clients' Hardware IDs.
 - Supports activation of single and multiple devices with individual licenses.
 - Organizes multiple products and their licenses automagically.
-- Prevents multiple free-trial uses with its **Proof Of Use** (POU) feature.
+- Prevents multiple free-trial uses with its Proof Of Use (POU) feature.
 - Determines whether clients have backdated their System Date/Time even when offline.
 - Ability to restrict or limit the number of trial uses, e.g. 12 times (daily or till expiry).
 - Ability to restrict or limit the usage time per running instance.
