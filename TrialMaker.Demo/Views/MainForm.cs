@@ -158,8 +158,7 @@ namespace TrialMakerDemo.CSharp.Views
         }
 
         /// <summary>
-        /// Updates the system titles based on 
-        /// the customer license information.
+        /// Updates the system titles based on the customer license information.
         /// </summary>
         public void UpdateTitles()
         {
@@ -189,8 +188,7 @@ namespace TrialMakerDemo.CSharp.Views
         }
 
         /// <summary>
-        /// Updates the system titles based on 
-        /// the customer license information.
+        /// Updates the system titles based on the customer license information.
         /// </summary>
         /// <param name="license">
         /// Provide the customer license to capture details from.
