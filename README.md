@@ -499,9 +499,9 @@ That's about it on the License Generator utility. More improvements and updates 
 
 TrialMaker is governed under a Proprietary License. See `LICENSE.md` for more details.
 
-To get the complete source code, please [click here](https://kutt.it/tms).
-
 Also feel free to reach out via email for any consultations: wilskym[at]live[dot]com.
 
+> Get the complete [source code](https://kutt.it/tms).
+
 <hr>
-*Made with* 💛 *by* *Willy Kimura*
+*Made with* 💛 *by Willy Kimura*
