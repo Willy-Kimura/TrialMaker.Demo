@@ -24,7 +24,7 @@ To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialM
 - Generates secure free-trial licenses with configurable trial periods.
 - Encrypts licenses with strong military grade AES-256 encryption.
 - Generates unique Hardware IDs per customer for license validation.
-- Generates hardware-locked trial and premium licenses based on clients' Hardware IDs.
+- Generates hardware-locked trial and [premium](https://kutt.it/lcgen) licenses based on clients' Hardware IDs.
 - Generates unique license keys based on clients' Hardware IDs.
 - Supports activation of single and multiple devices with individual licenses.
 - Organizes multiple products and their licenses automagically.
@@ -429,9 +429,9 @@ string title = tm.ModelExpirationMessage();
 
 ## Activating premium licenses
 
-> ***Note:*** License Generator is packaged separately. Please visit [this link](https://kutt.it/lcgen) to get your copy.
+> **Note:** License Generator is packaged separately. Please visit [this link](https://kutt.it/lcgen) to get your copy.
 
-TrialMaker includes an offline and powerful *License Generator* utility that lets you generate premium licenses for converting free-trial users to premium clients. You can provide single device activations or multi-device activations, meaning that a client can either receive a single license for one device or a single license for multiple devices:
+TrialMaker includes an offline and powerful license generation utility that lets you generate premium licenses for converting free-trial users to premium clients. You can provide single device activations or multi-device activations, meaning that a client can either receive a single license for one device or a single license for multiple devices:
 
 ![trial-maker-demo](/Assets/Screenshots/trial-maker-license-generator.png)
 
