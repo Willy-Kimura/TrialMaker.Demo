@@ -142,9 +142,9 @@ namespace TrialMakerDemo.CSharp.Views
                 string messageTitle = "The following errors were found upon validation:\n\n";
                 string messageFooter = "Please ensure they are resolved before continuing";
 
-                if (tm.ValidationErrors.Count >= 1)
+                if (tm.ValidationErrors.Count == 1)
                 {
-                    messageTitle = "The following errors were found upon validation:\n";
+                    messageTitle = "The following error was found upon validation:\n";
                     messageFooter = "Please ensure it is resolved before continuing";
                 }
                 
