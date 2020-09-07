@@ -188,7 +188,7 @@ var lic = tm.Activate("provide the secured license");
 
 if (lic.Status == LicenseStatus.Active)
 {
-    // If valid, the license will be activated and installed.
+    // The license has been activated and installed.
 }
 else if (lic.Status == LicenseStatus.Invalid)
 {
