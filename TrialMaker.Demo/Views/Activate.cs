@@ -40,7 +40,7 @@ namespace TrialMakerDemo.CSharp.Views
                 btnActivate.Text = "Activate";
 
                 MessageBox.Show("The license is invalid.");
-
+            
                 // [Reserved] You can display the list of errors to clients.
                 // string errors = string.Join(",\n", TrialMaker.Instance.ValidationErrors);
             }

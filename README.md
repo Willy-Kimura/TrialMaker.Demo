@@ -179,7 +179,22 @@ if (lic.Status == LicenseStatus.Active)
 }
 ```
 
-Premium licenses can be generated using the *License Generator* utility. For more info, please checkout the section [Activating Premium Licenses](#activating-premium-licenses).
+Premium licenses can be generated using the [License Generator](https://kutt.it/lcgen) utility. For more info, please checkout the section [Activating Premium Licenses](#activating-premium-licenses).
+
+To activate a premium license, use the `Activate(string license)` method. This method accepts a secured license string as an argument:
+
+```c#
+var lic = tm.Activate("provide the secured license");
+
+if (lic.Status == LicenseStatus.Active)
+{
+    // If valid, the license will be activated and installed.
+}
+else if (lic.Status == LicenseStatus.Invalid)
+{
+    // Use the 'ValidationErrors' property to determine which errors were raised.
+}
+```
 
 You can also check whether the user is trying the application for the first time using the `License.FirstTime` property. This could be useful if you wish to welcome any potential clients or even showcase premium features to encourage upgrading to the premium version:
 
