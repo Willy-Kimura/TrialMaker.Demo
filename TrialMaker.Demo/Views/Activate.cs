@@ -18,37 +18,50 @@ namespace TrialMakerDemo.CSharp.Views
 
         #endregion
 
+        #region Methods
+
+        private void ShowBusy()
+        {
+            btnActivate.Text = "Activating...";
+            Cursor = Cursors.WaitCursor;
+            btnActivate.Enabled = false;
+        }
+
+        private void HideBusy()
+        {
+
+            btnActivate.Enabled = true;
+            Cursor = Cursors.Default;
+            btnActivate.Text = "Activate";
+        }
+
+        #endregion
+
         #region Events
 
-        private void ActivatePremium_Load(object sender, EventArgs e)
+        private void Activate_Load(object sender, EventArgs e)
         {
             txtHardwareID.Text = TrialMaker.HardwareID;
         }
 
         private void BtnActivate_Click(object sender, EventArgs e)
         {
-            btnActivate.Text = "Activating...";
-            Cursor = Cursors.WaitCursor;
-            btnActivate.Enabled = false;
+            ShowBusy();
 
             var lic = TrialMaker.Instance.Activate(txtLicense.Text);
 
             if (lic.Status == LicenseStatus.Invalid)
             {
-                btnActivate.Enabled = true;
-                Cursor = Cursors.Default;
-                btnActivate.Text = "Activate";
+                HideBusy();
 
                 MessageBox.Show("The license is invalid.");
-            
-                // [Reserved] You can display the list of errors to clients.
+                
+                // [NB] You can display the list of errors to clients.
                 // string errors = string.Join(",\n", TrialMaker.Instance.ValidationErrors);
             }
             else
             {
-                btnActivate.Enabled = true;
-                Cursor = Cursors.Default;
-                btnActivate.Text = "Activate";
+                HideBusy();
 
                 MessageBox.Show(
                     $"Thank you {lic.Client} for purchasing {lic.Product}!\n" +
