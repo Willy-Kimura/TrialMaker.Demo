@@ -72,12 +72,7 @@ namespace TrialMakerDemo.CSharp.Views
                 return _instance;
             }
         }
-
-        /// <summary>
-        /// Stores the free-trial evaluation message at the window title.
-        /// </summary>
-        internal string EvaluationMessage { get; set; }
-
+        
         #endregion
 
         #region Methods
@@ -167,23 +162,17 @@ namespace TrialMakerDemo.CSharp.Views
             if (license.Type == LicenseTypes.Premium)
             {
                 activatePremiumToolStripMenuItem.Visible = false;
-                EvaluationMessage = $"Premium";
 
-                Text = $"{license.Product} ({EvaluationMessage})";
+                Text = tm.ModelProductTitle();
+
                 lblLicenseMessage.Text = $"Licensed to {license.Client}";
                 lblLicenseMessage.ForeColor = Color.ForestGreen;
             }
             else
             {
-                DateTime expiryDate = license.ExpiryDate;
-                EvaluationMessage = $"{license.TotalDays}-day Evaluation";
+                Text = tm.ModelProductTitle();
 
-                string datePartA = expiryDate.ToString("dddd dd") + GetDaySuffix(expiryDate.Day) + " ";
-                string datePartB = expiryDate.ToString("MMMM, yyyy");
-                string ExpirationMessage = datePartA + datePartB;
-
-                Text = $"{license.Product} ({EvaluationMessage})";
-                lblLicenseMessage.Text = $"Evaluation period expires on {ExpirationMessage}";
+                lblLicenseMessage.Text = tm.ModelExpirationMessage();
             }
         }
 
@@ -198,23 +187,17 @@ namespace TrialMakerDemo.CSharp.Views
             if (license.Type == LicenseTypes.Premium)
             {
                 activatePremiumToolStripMenuItem.Visible = false;
-                EvaluationMessage = $"Premium";
 
-                Text = $"{license.Product} ({EvaluationMessage})";
+                Text = tm.ModelProductTitle();
+
                 lblLicenseMessage.Text = $"Licensed to {license.Client}";
                 lblLicenseMessage.ForeColor = Color.ForestGreen;
             }
             else
             {
-                DateTime expiryDate = license.ExpiryDate;
-                EvaluationMessage = $"{license.TotalDays}-day Evaluation";
+                Text = tm.ModelProductTitle();
 
-                string datePartA = expiryDate.ToString("dddd dd") + GetDaySuffix(expiryDate.Day) + " ";
-                string datePartB = expiryDate.ToString("MMMM, yyyy");
-                string ExpirationMessage = datePartA + datePartB;
-
-                Text = $"{license.Product} ({EvaluationMessage})";
-                lblLicenseMessage.Text = $"Evaluation period expires on {ExpirationMessage}";
+                lblLicenseMessage.Text = tm.ModelExpirationMessage();
             }
         }
 
