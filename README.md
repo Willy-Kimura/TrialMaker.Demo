@@ -503,5 +503,4 @@ Also feel free to reach out via email for any consultations: wilskym[at]live[dot
 
 > Get the complete [source code](https://kutt.it/tms).
 
-<hr>
 *Made with* 💛 *by Willy Kimura*
