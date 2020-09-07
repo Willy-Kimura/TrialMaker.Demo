@@ -442,6 +442,7 @@ We will now discuss how the License Generator works...
 - Generating hardware-locked licenses based on a client's Hardware ID.
 - Generating subscription licenses by limiting the no. of days of use, e.g. 365.
 - Managing premium clients and products for reference purposes and support.
+- Supports single device activation and multiple device activations, meaning clients can either receive a single license for one device or a single license for multiple devices.
 
 ### Usage
 
