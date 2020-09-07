@@ -194,7 +194,7 @@ else if (lic.Status == LicenseStatus.Invalid)
 {
     // Use the 'ValidationErrors' property to determine which errors were raised.
     string errors = string.Join(",\n", tm.ValidationErrors);
-    MessageBox.Show(errors);
+    // MessageBox.Show(errors);
 }
 ```
 
