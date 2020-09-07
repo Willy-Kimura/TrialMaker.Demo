@@ -493,7 +493,7 @@ The utility has four main sections:
 
 You can expand or collapse the Clients Database section using the *expand/collapse* icon: ![search-clients](/Assets/Screenshots/expand-collapse-icon.png)
 
-That's about it on the License Generator utility. More improvements and updates are sure to come with each and every release.
+That's about it on License Generator. More updates and improvements are sure to come with every release.
 
 # License
 
