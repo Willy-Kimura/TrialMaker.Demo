@@ -497,9 +497,9 @@ That's about it on License Generator. More updates and improvements are sure to 
 
 # License
 
-TrialMaker is governed under a Proprietary License. See `LICENSE.md` for more details.
+TrialMaker and its sources are governed under a Proprietary License. The demo however is under an MIT license.
 
-Also feel free to reach out via email for any consultations: wilskym[at]live[dot]com.
+Feel free to reach out via email for any consultations: wilskym[at]live[dot]com.
 
 > Get the complete [source code](https://kutt.it/tms).
 
