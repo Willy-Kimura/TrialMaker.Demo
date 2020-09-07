@@ -14,7 +14,7 @@
 
 To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialMaker/) Console, run:
 
-> `Install-Package TrialMaker`
+> `Install-Package TrialMaker.Licensing`
 
 # Features
 
