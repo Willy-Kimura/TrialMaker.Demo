@@ -1,20 +1,16 @@
 # TrialMaker: Trial Licensing for .NET Applications
 
-[![nuget-package](https://img.shields.io/badge/NuGet-Install-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing/) [![Purchase via Gumroad](https://img.shields.io/badge/Get-SourceCode-orange.svg)](https://kutt.it/lcgen) [![Purchase via Gumroad](https://img.shields.io/badge/Get-LicenseGenerator-yellow.svg)](https://kutt.it/lcgen) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
+[![Purchase via Gumroad](https://img.shields.io/badge/Get-Library-green.svg)](https://gum.co/QQejI) [![Purchase via Gumroad](https://img.shields.io/badge/Get-Sources-orange.svg)](https://gum.co/qmWSh) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 
-**TrialMaker** is a library that provides trial licensing for .NET applications.  It provides a simplified and easy way to integrate secure free-trial license generation and copy protection features. It also supports premium offline license generation for expired free-trials with its own [License Generator](https://kutt.it/lcgen) utility.
+> This is a *Read-only* repository. To get the product, please [click here](https://gum.co/qmWSh).
+
+[TrialMaker](https://gum.co/QQejI) is a library that provides trial licensing for .NET applications.  It provides a simplified and easy way to integrate secure free-trial license generation and copy protection features. It also supports premium offline license generation for expired free-trials with its own **License Generator** utility.
 
 <div align="center">
 
 ![trial-maker-logo](/Assets/Icons/trial-maker-midres.png)
 
 </div>
-
-# Installation
-
-To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialMaker.Licensing/) Console, run:
-
-> `Install-Package TrialMaker.Licensing`
 
 # Features
 
@@ -45,8 +41,8 @@ To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialM
 - Licenses are generated using a secured cryptographic key to prevent any third-party license regeneration.
 - Each product requires a unique *Product ID*, preventing anyone from recreating a similar product or its derived licenses. This also prevents anyone with the sources from generating licenses of a particular product.
 - The Proof Of Use (POU) feature prevents multiple free-trials once licenses have expired.
-- The [License Generator](https://kutt.it/lcgen) utility (provided separately) has also been secured and signed to prevent disassembling.
-- The complete [source code](https://kutt.it/tms) is also provided separately for developers or teams who would like to extend the library with features such as server license validation, activation, and management.
+- The [License Generator](https://gum.co/QQejI) utility (provided separately) has also been secured and signed to prevent disassembling.
+- The complete [source code](https://gum.co/qmWSh) is also provided separately for developers or teams who would like to extend the library with features such as server license validation, activation, and management.
 
 # **Demo**
 
@@ -56,9 +52,13 @@ TrialMaker includes a sample C# demo project that will help you easily get start
 
 ![trial-maker-demo](/Assets/Screenshots/trial-maker-demo.gif)
 
+# Installation
+
+Once you get the library, simply add it as a reference to your project then follow the next section on usage...
+
 # Usage
 
-First, ensure you import the library's core namespaces after installation:
+First, ensure you import the library's core namespaces after referencing:
 
 ```c#
 using WK.Libraries.TrialMakerNS;
@@ -179,7 +179,7 @@ if (lic.Status == LicenseStatus.Active)
 }
 ```
 
-Premium licenses can be generated using the [License Generator](https://kutt.it/lcgen) utility. For more info, please checkout the section [Activating Premium Licenses](#activating-premium-licenses).
+Premium licenses can be generated using the *License Generator* utility. For more info, please checkout the section [Activating Premium Licenses](#activating-premium-licenses).
 
 To activate a premium license, use the `Activate(string license)` method. This method accepts a secured license string as an argument:
 
@@ -446,7 +446,7 @@ string title = tm.ModelExpirationMessage();
 
 ## Activating premium licenses
 
-> **Note:** License Generator is packaged separately. Please visit [this link](https://kutt.it/lcgen) to get your copy.
+> License Generator requires license activation. Please ensure you provide your valid *purchase email* and *license key* before proceeding.
 
 TrialMaker includes an offline and powerful license generation utility that lets you generate premium licenses for converting free-trial users to premium clients. You can provide single device activations or multi-device activations, meaning that a client can either receive a single license for one device or a single license for multiple devices:
 
@@ -501,6 +501,6 @@ TrialMaker and its sources are governed under a Proprietary License. The demo ho
 
 Feel free to reach out via email for any consultations: wilskym[at]live[dot]com.
 
-> Get the complete [source code](https://kutt.it/tms).
+> Get the complete [source code](https://gum.co/qmWSh).
 
 *Made with* 💛 *by Willy Kimura*
