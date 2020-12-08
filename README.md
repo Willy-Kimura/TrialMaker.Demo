@@ -1,4 +1,4 @@
-# TrialMaker: Trial Licensing for .NET Apps
+# TrialMaker: Trial Licensing for .NET Applications
 
 [![Purchase via Gumroad](https://img.shields.io/badge/Install-NuGet-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing/) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-License-orange.svg)](https://gum.co/QQejI) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 
