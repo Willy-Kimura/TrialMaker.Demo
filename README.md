@@ -1,6 +1,6 @@
 # TrialMaker: Trial Licensing for .NET Applications
 
-[![Purchase via Gumroad](https://img.shields.io/badge/Install-NuGet-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing.Preview/) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-License-orange.svg)](https://gum.co/QQejI) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-Sources-yellow.svg)](https://gum.co/QQejI) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
+[![Purchase via Gumroad](https://img.shields.io/badge/Install-NuGet-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing.Preview/) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-License-orange.svg)](https://gum.co/QQejI) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-Sources-yellow.svg)](https://gum.co/qmWSh) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 
 [TrialMaker](https://gum.co/QQejI) is a premium library that provides trial licensing for .NET applications.  It provides a simplified and easy way to integrate secure free-trial license generation and copy protection features. It also supports premium offline license generation for expired free-trials with its own **License Generator** utility.
 
@@ -515,6 +515,6 @@ TrialMaker and its sources are governed under a Proprietary License. The demo ho
 
 Feel free to reach out via email for any consultations: wilskym[at]live[dot]com.
 
-> You can also get the [complete source code](https://gum.co/qmWSh) if you'd love to build your own thing or extend the product even further.
+You can also get the [complete source code](https://gum.co/qmWSh) if you'd love to build your own thing or extend the product even further.
 
 *Made with* 💛 *by Willy Kimura*
