@@ -1,10 +1,8 @@
 # TrialMaker: Trial Licensing for .NET Apps
 
-[![Purchase via Gumroad](https://img.shields.io/badge/Purchase-Library-green.svg)](https://gum.co/QQejI) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-Sources-orange.svg)](https://gum.co/qmWSh) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
+[![Purchase via Gumroad](https://img.shields.io/badge/Install-NuGet-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing/) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-License-orange.svg)](https://gum.co/QQejI) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 
-> This is a *Read-only* repository. To get the product, please [click here](https://gum.co/qmWSh).
-
-[TrialMaker](https://gum.co/QQejI) is a library that provides trial licensing for .NET applications.  It provides a simplified and easy way to integrate secure free-trial license generation and copy protection features. It also supports premium offline license generation for expired free-trials with its own **License Generator** utility.
+[TrialMaker](https://gum.co/QQejI) is a premium library that provides trial licensing for .NET applications.  It provides a simplified and easy way to integrate secure free-trial license generation and copy protection features. It also supports premium offline license generation for expired free-trials with its own **License Generator** utility.
 
 <div align="center">
 
@@ -55,6 +53,8 @@ The demo limitations include:
 - A nag dialog appears per-build, both at design-time and runtime.
 - Maximum of 30 trial days configuration.
 - Library is not strong-named and signed.
+
+> To get the full-featured library, please visit the [purchase page](https://gum.co/qmWSh).
 
 # **Demo**
 
@@ -460,7 +460,7 @@ string title = tm.ModelExpirationMessage();
 
 ## Activating premium licenses
 
-> License Generator requires license activation. Please ensure you provide your valid *purchase email* and *license key* before proceeding.
+> License Generator requires activation. Please ensure you provide your valid *purchase email* and *license key* after purchase.
 
 TrialMaker includes an offline and powerful license generation utility that lets you generate premium licenses for converting free-trial users to premium clients. You can provide single device activations or multi-device activations, meaning that a client can either receive a single license for one device or a single license for multiple devices:
 
