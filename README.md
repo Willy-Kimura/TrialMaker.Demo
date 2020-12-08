@@ -10,6 +10,12 @@
 
 </div>
 
+# Installation
+
+To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialMaker.Licensing/) Console, run:
+
+> `Install-Package TrialMaker.Licensing`
+
 # Features
 
 - Supports [.NET Framework 4.0](https://www.microsoft.com/en-us/download/details.aspx?id=17718) and higher.
@@ -39,7 +45,7 @@
 - Licenses are generated using a secured cryptographic key to prevent any third-party license regeneration.
 - Each product requires a unique *Product ID*, preventing anyone from recreating a similar product or its derived licenses. This also prevents anyone with the sources from generating licenses of a particular product.
 - The Proof Of Use (POU) feature prevents multiple free-trials once licenses have expired.
-- The [License Generator](https://gum.co/QQejI) utility (provided separately) has also been secured and signed to prevent disassembling.
+- The License Generator utility (included on purchase) has also been secured and signed to prevent disassembling.
 - The complete [source code](https://gum.co/qmWSh) is also provided separately for developers or teams who would like to extend the library with features such as server license validation, activation, and management.
 
 ## 🔑 Demo limitations
@@ -54,7 +60,7 @@ The demo limitations include:
 - A default product ID of `1234` is given for every licensed product.
 - Library is not strong-named and signed.
 
-> To get the full-featured library, please consider [purchasing a license](https://gum.co/QQejI).
+To get the full-featured library, please consider [purchasing a license](https://gum.co/QQejI).
 
 # **Demo**
 
@@ -64,15 +70,9 @@ TrialMaker includes a sample C# demo project that will help you easily get start
 
 ![trial-maker-demo](/Assets/Screenshots/trial-maker-demo.gif)
 
-# Installation
-
-To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialMaker.Licensing/) Console, run:
-
-> `Install-Package TrialMaker.Licensing`
-
 # Usage
 
-First, ensure you import the library's core namespaces after referencing:
+First, ensure you import the library's core namespaces after installing:
 
 ```c#
 using WK.Libraries.TrialMakerNS;
