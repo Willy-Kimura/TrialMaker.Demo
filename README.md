@@ -50,7 +50,7 @@ To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialM
 
 ## 🔑 Demo limitations
 
-TrialMaker includes a demo library that let's any interested developers test its core features. Once satisfied, one can go ahead and purchase the [premium](https://gum.co/QQejI) version that removes all limitations, letting you build distributable and production-ready applications.
+TrialMaker's demo library let's any interested developers test its core features. Once satisfied, one can go ahead and purchase the [premium](https://gum.co/QQejI) version that removes all limitations, allowing you build distributable and production-ready applications.
 
 The demo limitations include:
 
