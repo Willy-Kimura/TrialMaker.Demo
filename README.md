@@ -48,6 +48,14 @@ To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialM
 - The License Generator utility (included on purchase) has also been secured and signed to prevent disassembling.
 - The complete [source code](https://gum.co/qmWSh) is also provided separately for developers or teams who would like to extend the library with features such as server license validation, activation, and management.
 
+# **Demo**
+
+TrialMaker includes a sample C# demo project that will help you easily get started. Below is a sample preview of the running demo and the License Generator utility in-part:
+
+> *To know more about the License Generator utility, please head over to the section [Activating Premium Licenses](#activating-premium-licenses).*
+
+![trial-maker-demo](/Assets/Screenshots/trial-maker-demo.gif)
+
 ## 🔑 Demo limitations
 
 TrialMaker's demo library let's any interested developers test its core features. Once satisfied, one can go ahead and purchase the [premium](https://gum.co/QQejI) version that removes all limitations, allowing you build distributable and production-ready applications.
@@ -61,14 +69,6 @@ The demo limitations include:
 - Library is not strong-named and signed.
 
 To get the full-featured library, please consider [purchasing a license](https://gum.co/QQejI).
-
-# **Demo**
-
-TrialMaker includes a sample C# demo project that will help you easily get started. Below is a sample preview of the running demo and the License Generator utility in-part:
-
-> *To know more about the License Generator utility, please head over to the section [Activating Premium Licenses](#activating-premium-licenses).*
-
-![trial-maker-demo](/Assets/Screenshots/trial-maker-demo.gif)
 
 # Usage
 
