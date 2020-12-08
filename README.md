@@ -58,7 +58,7 @@ TrialMaker includes a sample C# demo project that will help you easily get start
 
 ## 🔑 Demo limitations
 
-TrialMaker's demo library let's any interested developers test its core features. Once satisfied, one can go ahead and purchase the [premium](https://gum.co/QQejI) version that removes all limitations, allowing you build distributable and production-ready applications.
+TrialMaker's demo library let's any interested developers test its core features. Once satisfied, you can go ahead and purchase the [premium](https://gum.co/QQejI) version that removes all limitations, allowing you to build distributable and production-ready applications.
 
 The demo limitations include:
 
