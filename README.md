@@ -1,6 +1,6 @@
-# TrialMaker: Trial Licensing for .NET Applications
+# TrialMaker: Trial Licensing for .NET Apps
 
-[![Purchase via Gumroad](https://img.shields.io/badge/Get-Library-green.svg)](https://gum.co/QQejI) [![Purchase via Gumroad](https://img.shields.io/badge/Get-Sources-orange.svg)](https://gum.co/qmWSh) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
+[![Purchase via Gumroad](https://img.shields.io/badge/Purchase-Library-green.svg)](https://gum.co/QQejI) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-Sources-orange.svg)](https://gum.co/qmWSh) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 
 > This is a *Read-only* repository. To get the product, please [click here](https://gum.co/qmWSh).
 
@@ -44,6 +44,18 @@
 - The [License Generator](https://gum.co/QQejI) utility (provided separately) has also been secured and signed to prevent disassembling.
 - The complete [source code](https://gum.co/qmWSh) is also provided separately for developers or teams who would like to extend the library with features such as server license validation, activation, and management.
 
+## 🔑 Demo limitations
+
+TrialMaker provides users with a demo library that let's any interested developers test its core features. Once satisfied, one can go ahead and [purchase the premium version](https://gum.co/QQejI) that removes all limitations, letting you build distributable, production-ready applications.
+
+The demo limitations include:
+
+- Maximum of 7 runtimes per license.
+- A default product ID of `1234` is given for every licensed product.
+- A nag dialog appears per-build, both at design-time and runtime.
+- Maximum of 30 trial days configuration.
+- Library is not strong-named and signed.
+
 # **Demo**
 
 TrialMaker includes a sample C# demo project that will help you easily get started. Below is a sample preview of the running demo and the License Generator utility in-part:
@@ -54,7 +66,9 @@ TrialMaker includes a sample C# demo project that will help you easily get start
 
 # Installation
 
-Once you get the library, simply add it as a reference to your project then follow the next section on usage...
+To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialMaker.Licensing/) Console, run:
+
+> `Install-Package TrialMaker.Licensing`
 
 # Usage
 
@@ -501,6 +515,6 @@ TrialMaker and its sources are governed under a Proprietary License. The demo ho
 
 Feel free to reach out via email for any consultations: wilskym[at]live[dot]com.
 
-> Get the complete [source code](https://gum.co/qmWSh).
+> You can also get the [complete source code](https://gum.co/qmWSh) if you'd love to build your own thing or extend the product even further.
 
 *Made with* 💛 *by Willy Kimura*
