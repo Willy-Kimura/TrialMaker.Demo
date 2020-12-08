@@ -72,7 +72,7 @@ TrialMaker includes a sample C# demo project that will help you easily get start
 
 # Usage
 
-First, ensure you import the library's core namespaces after installing:
+First, ensure you import the library's core namespaces after installation:
 
 ```c#
 using WK.Libraries.TrialMakerNS;
