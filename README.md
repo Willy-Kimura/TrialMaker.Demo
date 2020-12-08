@@ -44,17 +44,17 @@
 
 ## 🔑 Demo limitations
 
-TrialMaker provides users with a demo library that let's any interested developers test its core features. Once satisfied, one can go ahead and [purchase the premium version](https://gum.co/QQejI) that removes all limitations, letting you build distributable, production-ready applications.
+TrialMaker includes a demo library that let's any interested developers test its core features. Once satisfied, one can go ahead and purchase the [premium](https://gum.co/QQejI) version that removes all limitations, letting you build distributable and production-ready applications.
 
 The demo limitations include:
 
-- Maximum of 7 runtimes per license.
-- A default product ID of `1234` is given for every licensed product.
 - A nag dialog appears per-build, both at design-time and runtime.
-- Maximum of 30 trial days configuration.
+- Maximum of 7 runtimes per license.
+- Maximum of 30 trial days per product configuration.
+- A default product ID of `1234` is given for every licensed product.
 - Library is not strong-named and signed.
 
-> To get the full-featured library, please visit the [purchase page](https://gum.co/qmWSh).
+> To get the full-featured library, please consider [purchasing a license](https://gum.co/QQejI).
 
 # **Demo**
 
