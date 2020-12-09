@@ -1,6 +1,6 @@
 # TrialMaker: Trial Licensing for .NET Applications
 
-[![Purchase via Gumroad](https://img.shields.io/badge/Install-NuGet-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing.Preview/) [![Purchase via Gumroad](https://img.shields.io/badge/Get-License-orange.svg)](https://gum.co/QQejI) [![Purchase via Gumroad](https://img.shields.io/badge/Get-Sources-yellow.svg)](https://gum.co/qmWSh) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
+[![Purchase via Gumroad](https://img.shields.io/badge/Install-Preview-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing.Preview/) [![Purchase via Gumroad](https://img.shields.io/badge/Install-Premium-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing.Premium/) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-License-orange.svg)](https://gum.co/QQejI) [![Purchase via Gumroad](https://img.shields.io/badge/Get-Sources-yellow.svg)](https://gum.co/qmWSh) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 
 [TrialMaker](https://gum.co/QQejI) is a premium library that provides trial licensing for .NET applications.  It provides a simplified and easy way to integrate secure free-trial license generation and copy protection features. It also supports premium offline license generation for expired free-trials with its own **License Generator** utility.
 
@@ -15,6 +15,10 @@
 To install via the [NuGet Package Manager](https://www.nuget.org/packages/TrialMaker.Licensing.Preview/) Console, run:
 
 > `Install-Package TrialMaker.Licensing.Preview`
+
+If you have a license, install the [premium](https://www.nuget.org/packages/TrialMaker.Licensing.Premium/) version by running:
+
+> `Install-Package TrialMaker.Licensing.Premium`
 
 # Features
 
@@ -56,11 +60,11 @@ TrialMaker includes a sample C# demo project that will help you easily get start
 
 ![trial-maker-demo](/Assets/Screenshots/trial-maker-demo.gif)
 
-## 🔑 Demo limitations
+## 🍉 Demo limitations
 
 TrialMaker's demo library let's any interested developers test its core features. Once satisfied, you can go ahead and purchase the [premium](https://gum.co/QQejI) version that removes all limitations, allowing you to build distributable and production-ready applications.
 
-The demo limitations include:
+The limitations include:
 
 - A nag dialog appears per-build, both at design-time and runtime.
 - Maximum of 7 runtimes per license.
@@ -69,6 +73,26 @@ The demo limitations include:
 - Library is not strong-named and signed.
 
 To get the full-featured library, please consider [purchasing a license](https://gum.co/QQejI).
+
+## 🚀 Activating your license
+
+After purchasing a license and installing TrialMaker in your project, you can activate your license by:
+
+- **Dragging TrialMaker to your Form:** 
+
+  Since TrialMaker (*premium*) is a component, simply drag it to your Form at design-time to launch the License Activation dialog.
+
+- **Building your project and adding the file** `Licenses.licx`: 
+
+  You can alternatively build your project once you've added the usage code to launch the License Activation dialog. Once your license is activated, go ahead and using Solution Explorer, add a new file `licenses.licx` inside your project. Then open the file and add the following line:
+
+  ```
+  WK.Libraries.TrialMakerNS.TrialMaker, System.Evaluation
+  ```
+
+  Lastly, right-click the file and select *Properties*, then set its **Build Action** property to *Embedded Resource*.
+
+>  In case you face any issues, feel free to ask for help anytime from the [Need Help](https://github.com/Willy-Kimura/TrialMaker.Demo/discussions?discussions_q=category%3A%22Need+Help%22) discussions area.
 
 # Usage
 
@@ -460,7 +484,7 @@ string title = tm.ModelExpirationMessage();
 
 ## Activating premium licenses
 
-> License Generator requires activation. Please ensure you provide your valid *purchase email* and *license key* after purchase.
+> If you never activated your license after installing TrialMaker, License Generator will still request for activation.
 
 TrialMaker includes an offline and powerful license generation utility that lets you generate premium licenses for converting free-trial users to premium clients. You can provide single device activations or multi-device activations, meaning that a client can either receive a single license for one device or a single license for multiple devices:
 
@@ -515,6 +539,6 @@ TrialMaker and its sources are governed under a Proprietary License. The demo ho
 
 Feel free to reach out via email for any consultations: wilskym[at]live[dot]com.
 
-You can also get the [complete source code](https://gum.co/qmWSh) if you'd love to build your own thing or extend the product even further.
+You can also get the [complete source code](https://gum.co/qmWSh) if you'd love to build your own thing or extend the product even further. By purchasing either a license or the sources, you go a long way in supporting my projects and libraries. Many thanks!
 
 *Made with* 💛 *by Willy Kimura*
