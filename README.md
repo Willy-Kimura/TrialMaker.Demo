@@ -82,17 +82,17 @@ After purchasing a license and installing TrialMaker in your project, you can ac
 
   Since TrialMaker (*premium*) is a component, once installed, you'll see it in Visual Studio's Toolbox. From there, simply drag-and-drop it to your Form at design-time to launch the License Activation dialog. You can then provide your valid license details and hit 'Enter'.
 
-- **Building your project and adding the file** `Licenses.licx`: 
+- **Adding usage code, adding the file** `Licenses.licx` **and building your project**: 
 
-  You can alternatively build your project once you've added the [usage code](#usage) to launch the License Activation dialog. Once your license is activated, go ahead and using Solution Explorer, add a new file `licenses.licx` inside your project. Then open the file and add the following line:
+  You can alternatively add the [usage code](#usage) then using Solution Explorer, add a new Text File in your project and rename it as `licenses.licx`. Then open the file and add the following line:
 
   ```
   WK.Libraries.TrialMakerNS.TrialMaker, System.Evaluation
   ```
 
-  Lastly, right-click the file and select *Properties*, then set its **Build Action** property to *Embedded Resource*.
+  Finally right-click the file, select *Properties* and set its **Build Action** property to *Embedded Resource*. After that, build your project.
 
->  In case you face any issues, feel free to ask for help anytime from the [Need Help](https://github.com/Willy-Kimura/TrialMaker.Demo/discussions?discussions_q=category%3A%22Need+Help%22) discussions area.
+>  In case you face any issues, please feel free to ask for help anytime from the [Need Help](https://github.com/Willy-Kimura/TrialMaker.Demo/discussions?discussions_q=category%3A%22Need+Help%22) discussions area.
 
 # Usage
 
