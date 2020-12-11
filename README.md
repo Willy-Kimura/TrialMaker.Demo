@@ -72,7 +72,7 @@ The limitations include:
 - A default product ID of `1234` is given for every licensed product.
 - Library is not strong-named and signed.
 
-To get the full-featured library, please consider [purchasing a license](https://gum.co/QQejI).
+To get the full-featured library, please consider [purchasing a license](https://gum.co/QQejI). Once purchased, you will also receive the [License Generator](#activating-premium-licenses) utility for generating premium licenses.
 
 ## 🚀 Activating your license
 
