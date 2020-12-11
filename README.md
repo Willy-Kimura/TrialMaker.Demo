@@ -76,7 +76,7 @@ To get the full-featured library, please consider [purchasing a license](https:/
 
 ## 🚀 Activating your license
 
-After purchasing a license and installing [TrialMaker Premium](https://www.nuget.org/packages/TrialMaker.Licensing.Premium/) in your project, you can activate your license by:
+After purchasing a license and installing the [premium](https://www.nuget.org/packages/TrialMaker.Licensing.Premium/) version in your project, you can activate your license by:
 
 - **Dragging the TrialMaker component to your Form:**
 
