@@ -111,7 +111,7 @@ var tm = new TrialMaker();
 // Add your product's information.
 tm.ProductInfo = new ProductInfo()
 {
-    ID = "#MyVeryUniqueProductID#"               // A unique product ID string.
+    ID = "#MyVeryUniqueProductID#",              // A unique product ID string.
     Name = "My App",                             // Your product's name.
     Owner = "My Company",                        // Your company or alias name.   
     TotalDays = 30,                              // How many trial days?
