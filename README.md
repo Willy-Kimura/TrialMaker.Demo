@@ -78,9 +78,9 @@ To get the full-featured library, please consider [purchasing a license](https:/
 
 After purchasing a license and installing TrialMaker in your project, you can activate your license by:
 
-- **Dragging TrialMaker to your Form:** 
+- **Dragging the TrialMaker component to your Form:** 
 
-  Since TrialMaker (*premium*) is a component, simply drag it to your Form at design-time to launch the License Activation dialog.
+  Since TrialMaker (*premium*) is a component, once installed, you'll see it in Visual Studio's Toolbox. From there, simply drag-and-drop it to your Form at design-time to launch the License Activation dialog. You can then provide your valid license details and hit 'Enter'.
 
 - **Building your project and adding the file** `Licenses.licx`: 
 
