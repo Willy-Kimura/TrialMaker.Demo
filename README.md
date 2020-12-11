@@ -84,7 +84,7 @@ After purchasing a license and installing TrialMaker in your project, you can ac
 
 - **Building your project and adding the file** `Licenses.licx`: 
 
-  You can alternatively build your project once you've added the usage code to launch the License Activation dialog. Once your license is activated, go ahead and using Solution Explorer, add a new file `licenses.licx` inside your project. Then open the file and add the following line:
+  You can alternatively build your project once you've added the [usage code](#usage) to launch the License Activation dialog. Once your license is activated, go ahead and using Solution Explorer, add a new file `licenses.licx` inside your project. Then open the file and add the following line:
 
   ```
   WK.Libraries.TrialMakerNS.TrialMaker, System.Evaluation
