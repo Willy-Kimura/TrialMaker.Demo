@@ -2,8 +2,6 @@
 
 [![Purchase via Gumroad](https://img.shields.io/badge/Install-Preview-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing.Preview/) [![Purchase via Gumroad](https://img.shields.io/badge/Install-Premium-green.svg)](https://www.nuget.org/packages/TrialMaker.Licensing.Premium/) [![Purchase via Gumroad](https://img.shields.io/badge/Purchase-License-orange.svg)](https://gum.co/QQejI) [![Purchase via Gumroad](https://img.shields.io/badge/Get-Sources-yellow.svg)](https://gum.co/qmWSh) ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 
-> **News!** You can now [purchase](https://willykimura.gumroad.com/l/qmWSh) a new complete package with support for online server-based licensing. Simply head over to the [purchase](https://willykimura.gumroad.com/l/qmWSh) page and choose your package. *All packages come with sample demos to help you kickstart licensing your apps.*
-
 [TrialMaker](https://gum.co/QQejI) is a premium library that provides trial licensing for .NET applications.  It provides a simplified and easy way to integrate secure free-trial license generation and copy protection features. It also supports premium offline license generation for expired free-trials with its own **License Generator** utility.
 
 <div align="center">
